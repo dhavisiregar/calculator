@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .operator {
+    @apply bg-[#D4D4D2] rounded-md text-2xl text-black font-semibold py-4 px-2 border border-white shadow-inner shadow-current;
+  }
+
+  .number {
+    @apply bg-[#505050] rounded-md text-2xl text-white font-semibold py-4 px-2 border border-white shadow-inner shadow-current;
+  }
+
+  .calculate {
+    @apply bg-[#FF9500] rounded-md text-2xl text-white font-semibold py-4 px-2 border border-white shadow-inner shadow-current;
+  }
+}
